@@ -3,7 +3,6 @@ from PIL import Image
 # Setup
 width = 1920
 height = 1080
-counter = 0
 img = Image.new('RGB', (width, height), "black") # create a new black image
 pixelMap = img.load() # create the pixel map
 piFile = open("pi-4Million.txt")
